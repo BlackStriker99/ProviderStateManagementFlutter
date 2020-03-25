@@ -8,7 +8,9 @@ class AppDrawer extends StatelessWidget {
         child: Column(
           children: <Widget>[
             DrawerHeader(
-              decoration: BoxDecoration(color: Colors.purple),
+              decoration: BoxDecoration(
+                color: Colors.purple,
+              ),
             ),
             ListTile(
               title: Text("Home"),
